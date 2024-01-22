@@ -1,0 +1,4 @@
+weapons/pistol		ISPISTOL
+weapons/chngun		DSPISTOL
+weapons/shotgfz		DSSHUTGN
+doomguy/taunt		HAHA

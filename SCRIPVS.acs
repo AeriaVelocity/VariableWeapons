@@ -1,0 +1,38 @@
+#library "wariable"
+#include "zcommon.acs"
+
+script "BerserkMusic" enter
+{
+	while (1) {
+		Delay(1);
+		if (CheckInventory("PowerStrength") && CheckWeapon("CombinationFist")) {
+			SetActorProperty(0, APROP_Speed, 1.5);
+			SetActorProperty(0, APROP_JumpZ, 10.0);
+			SetMusic("RIPNTEAR");
+			SetAirControl(0.5);
+			FadeTo(255, 0, 0, 0.2, 0.0);
+		}
+		else {
+			SetActorProperty(0, APROP_Speed, 1.0);
+			SetActorProperty(0, APROP_JumpZ, 8.0);
+			SetMusic("*");
+			SetAirControl(0.00390625);
+			FadeTo(0, 0, 0, 0.0, 0.0);
+		}
+	}
+}
+
+script "Bloodlust" enter
+{
+	while (1) {
+		if (GetActorProperty(0, APROP_Health) > 100) {
+			Delay(3);
+		}
+		else {
+			Delay(10);
+		}
+		if (CheckInventory("PowerStrength") && CheckWeapon("CombinationFist") && (GetActorProperty(0, APROP_Health) > 20) && !CheckInventory("PowerInvulnerable")) {
+			SetActorProperty(0, APROP_Health, GetActorProperty(0, APROP_Health) - 1);
+		}
+	}
+}

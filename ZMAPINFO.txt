@@ -1,0 +1,9 @@
+gameinfo
+{
+	PlayerClasses = "VDoomPlayer"
+}
+
+damagetype Stun
+{
+	Factor = 1
+}
