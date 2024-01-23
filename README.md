@@ -43,10 +43,6 @@ any GZDoom-compatible port.
 It won't work in any vanilla DOOM game or with a non-GZDoom port like PrBoom or
 Crispy Doom.
 
-## Manual
-
-Variable Weapons' manual is available in AsciiDoc format, [at manual.adoc.]()
-
 ## Legal
 
 Variable Weapons is licensed under the terms of the GNU General Public License,
