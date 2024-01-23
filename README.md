@@ -11,8 +11,8 @@ how you got such a random thought. But Variable Weapons can fulfill your random
 desires!
 
 It's called "Variable Weapons" because they're not necessarily improved versions
-of the original DOOM weapons, but they've had variations applied to them.
-Hence, *variable* weapons.
+of the original DOOM weapons, but they've been modified with new behaviours that
+serve to make the player overpowered as frick.
 
 Variable Weapons uses the power of the TEXTURES lump available in ZDoom-derived
 ports to provide new graphics without necessarily creating new sprites.
