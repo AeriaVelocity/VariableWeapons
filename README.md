@@ -2,6 +2,10 @@
 
 ![Gameplay showcasing Variable Weapons](graphics/gameplay.png)
 
+**[Read the Manual!](https://github.com/That1M8Head/VariableWeapons/blob/main/manual.adoc)**
+
+## Overview
+
 Variable Weapons is a GZDoom-compatible gameplay mod for DOOM, DOOM II and its
 variants and expansions and what have you.
 
@@ -41,7 +45,7 @@ Crispy Doom.
 
 ## Manual
 
-Variable Weapons' manual is available in AsciiDoc format, [at manual.adoc.](https://github.com/That1M8Head/VariableWeapons/blob/main/manual.adoc)
+Variable Weapons' manual is available in AsciiDoc format, [at manual.adoc.]()
 
 ## Legal
 
