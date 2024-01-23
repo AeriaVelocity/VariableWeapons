@@ -1,0 +1,37 @@
+= Variable Weapons Manual
+
+NOTE: Work in progress. Come back later.
+
+== Contents
+
+== Overview
+
+== Installing
+
+== Weapons
+
+=== Combo Fist
+
+=== Hand Cannon
+
+=== Accurate Shotgun
+
+=== Super Duper Shotgun
+
+=== Stunlocker Chaingun
+
+=== Speed Rocket Launcher
+
+=== Hybrid Plasma Cannon
+
+=== BFG 24336000
+
+== Abilities
+
+=== Dash
+
+=== Neutralise
+
+=== Bloodlust
+
+== Credits
