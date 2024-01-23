@@ -41,8 +41,7 @@ Crispy Doom.
 
 ## Manual
 
-Variable Weapons' manual is available in AsciiDoc format, present in the `doc`
-directory of this repository.
+Variable Weapons' manual is available in AsciiDoc format, [at manual.adoc.](https://github.com/That1M8Head/VariableWeapons/blob/main/manual.adoc)
 
 ## Legal
 
