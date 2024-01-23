@@ -164,3 +164,6 @@ Variable Weapons is a gameplay mod by Arsalan "Velocity" Kazmi
 <sonicspeed848@gmail.com>, and contains elements from various games in the DOOM
 series, of course being DOOM itself, DOOM 64 and DOOM Eternal, which are all
 copyright of id Software.
+
+Variable Weapons also uses the "default taunt" sound from Skulltag:
+https://www.youtube.com/watch?v=GMekeLAQBHE
