@@ -1,37 +1,166 @@
 = Variable Weapons Manual
-
-NOTE: Work in progress. Come back later.
-
-== Contents
+:toc:
 
 == Overview
 
-== Installing
+Variable Weapons is a GZDoom mod which modifies DOOM's weapons to be overpowered
+as frick, making you feel like an unstoppable demon slayer with stupid weapons
+that make you feel awesome.
+
+== Installing & Running
+
+**If you know how to install and run DOOM mods with GZDoom, you can skip this.**
+
+=== Prerequisites
+
+. GZDoom
+. A PK3 of Variable Weapons (if you cloned the Git repository, remove the .git 
+folder then zip the folder and rename `.zip` to `.pk3`)
+. DOOM or DOOM II (official DOOM recommended, Freedoom will still work)
+. ZDL (optional but recommended)
+
+=== Instructions
+
+Make sure you add your IWAD to ZDL. To do this, switch to the "General settings"
+tab and add your IWAD to the "IWADs" list.
+
+Do the same thing for GZDoom -- add it to "Source ports".
+
+Switch back to "Launch config" and add `VariableWeapons.pk3` to the "External
+files" list. Then click "Launch".
 
 == Weapons
 
+Variable Weapons has a whole host of weapons that have been modified from their
+DOOM counterparts. Here's what you'll have:
+
 === Combo Fist
+
+Your good old Brass Knuckles, with some extra punch. You've also been practicing
+your boxing, so you can perform punch combos by rapidly attacking. What's more,
+you can dash around the arena or nullify attacks on the spot.
+
+* **Primary Fire:** Perform a punch. Rapidly press the button to perform combo
+punches.
+* **Secondary Fire:** While standing still, perform your Neutralise ability,
+nullifying the damage of an incoming attack. While on the move, perform your
+Dash ability, dashing in your movement direction while neutralising incoming
+damage. Hold down the button to perform a punch right after your ability use.
 
 === Hand Cannon
 
+Your pistol has gotten a bit of an upgrade, and it can easily pick off the lower
+tier demons with ease. It's much more suitable for staying alongside the rest
+of your armoury.
+
+* **Primary Fire:** Fire the Hand Cannon. Deals substantial damage, but the
+speed is slower than DOOM's normal pistol.
+* **Secondary Fire:** N/A
+
 === Accurate Shotgun
+
+Whoever said the shotgun has too much of a spread must be feeling pretty silly
+now. This shotgun's so accurate, you can literally use it as a sniper!
+
+* **Primary Fire:** Fire the shotgun. The pellets have incredibly reduced spread
+compared to the normal shotgun.
+* **Secondary Fire:** Zoom in. Press **Primary Fire** while zoomed to perform
+a sniper shot, which deals higher damage but uses two shells instead of one.
 
 === Super Duper Shotgun
 
+What? The Super Shotgun isn't overpowered? Well, I think it's time to fix that!
+This thing's so powerful, it'll FLING Doomguy in the opposite direction it's
+fired!
+
+* **Primary Fire:** Fire the shotgun. The pellets have absolutely ridiculous
+spread and a much higher amount, but it uses four shells and takes longer to
+reload.
+* **Secondary Fire:** N/A
+
 === Stunlocker Chaingun
+
+Well, if we were gonna make the pistol overpowered, we would have to underpower
+the chaingun. You see why this is "Variable" yet?
+
+* **Primary Fire:** Fire the chaingun. The accuracy is higher than normal, but
+it fires much faster.
+* **Secondary Fire:** N/A
 
 === Speed Rocket Launcher
 
+This rocket launcher has been given a new fast-loading mechanism which allows
+you to fire rockets much faster, but the rockets it holds are much less
+powerful as a result.
+
+* **Primary Fire:** Fire the rocket launcher. The rockets are much faster than
+DOOM's rockets, but deal reduced damage.
+* **Secondary Fire:** N/A
+
 === Hybrid Plasma Cannon
 
+The old plasma rifle has been given some upgrades, and some downgrades. It now
+fires in short bursts rather than one continuous stream of plasma, but you can
+now also use it as a plasma shotgun!
+
+* **Primary Fire:** Fire the plasma cannon. The plasma fires in short bursts
+and is generally much less suited for larger crowds than the old one was.
+* **Secondary Fire:** Fire a wide spread of plasma projectiles, like a plasma shotgun. This has a slight cooldown.
+
 === BFG 24336000
+
+What do you get when you multiply 9000 with 2704? You get this absolute unit.
+The BFG 24336000 combines the loads of projectiles of the beta BFG-2704 with the
+cool modern BFG-9000's tracer ray attack. With, uh, every single projectile it
+fires. This is the most overpowered weapon ever and once you get it, you've
+pretty much won.
+
+* **Primary Fire:** Fire the BFG 24336000, spewing out 40 small BFG balls
+followed by one large one. The initial 40 will bounce off floors and ceilings,
+and every single ball is capable of firing off the BFG tracer rays. Yes, that
+IS stupidly overpowered.
+* **Secondary Fire:** N/A
 
 == Abilities
 
 === Dash
 
+With the Combo Fist, you can perform a dash in the direction you're moving,
+which temporarily nullifies incoming damage. If you continuously hold the 
+**Secondary Fire** button while dashing, you'll perform a punch after the dash
+is complete.
+
+Dashing will consume 100% of your stamina, and you have to wait for it to
+recharge fully before using it again.
+
+In Bloodlust, dashing will consume your health, but it can now be spammed.
+
 === Neutralise
+
+If you use the Dash, but you're not on the move, you'll use Neutralise instead,
+which uses the Dash's damage nullification, but without the actual dash. Just
+like with the Dash, holding the **Secondary Fire** button will perform a punch
+afterwards.
+
+Neutralising will consume only 25% of your stamina rather than the full 100%,
+so it'll recharge much sooner.
 
 === Bloodlust
 
+Bloodlust is Variable Weapons' replacement for Berserk, and turns it into a
+blind frenzy of punching demons rapidly in a fight for your own draining health.
+
+When Bloodlust is active, Doomguy's health will rapidly drop to a cap of 20%,
+but your Combo Fist will become much more powerful and much faster. What's more,
+punching anything will recover some health, so you can rush your way through a
+bunch of demons and live to tell the tale.
+
+Bloodlust is only active when you have the Combo Fist selected. If you switch
+to a weapon, Bloodlust will be put on hold until you switch back.
+
 == Credits
+
+Variable Weapons is a gameplay mod by Arsalan "Velocity" Kazmi
+<sonicspeed848@gmail.com>, and contains elements from various games in the DOOM
+series, of course being DOOM itself, DOOM 64 and DOOM Eternal, which are all
+copyright of id Software.
