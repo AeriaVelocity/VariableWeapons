@@ -160,8 +160,8 @@ to a weapon, Bloodlust will be put on hold until you switch back.
 
 == Credits
 
-Variable Weapons is a gameplay mod by Arsalan "Velocity" Kazmi
-<sonicspeed848@gmail.com>, and contains elements from various games in the DOOM
+Variable Weapons is a gameplay mod by Arsalan "Aeria" Kazmi
+(AeriaVelocity), and contains elements from various games in the DOOM
 series, of course being DOOM itself, DOOM 64 and DOOM Eternal, which are all
 copyright of id Software.
 
