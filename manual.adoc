@@ -107,15 +107,15 @@ now also use it as a plasma shotgun!
 and is generally much less suited for larger crowds than the old one was.
 * **Secondary Fire:** Fire a wide spread of plasma projectiles, like a plasma shotgun. This has a slight cooldown.
 
-=== BFG 24336000
+=== BFG-24336000
 
 What do you get when you multiply 9000 with 2704? You get this absolute unit.
-The BFG 24336000 combines the loads of projectiles of the beta BFG-2704 with the
+The BFG-24336000 combines the loads of projectiles of the beta BFG-2704 with the
 cool modern BFG-9000's tracer ray attack. With, uh, every single projectile it
 fires. This is the most overpowered weapon ever and once you get it, you've
 pretty much won.
 
-* **Primary Fire:** Fire the BFG 24336000, spewing out 40 small BFG balls
+* **Primary Fire:** Fire the BFG-24336000, spewing out 40 small BFG balls
 followed by one large one. The initial 40 will bounce off floors and ceilings,
 and every single ball is capable of firing off the BFG tracer rays. Yes, that
 IS stupidly overpowered.
