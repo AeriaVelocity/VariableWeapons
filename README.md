@@ -2,7 +2,7 @@
 
 ![Gameplay showcasing Variable Weapons](graphics/gameplay.png)
 
-**[Read the Manual!](https://github.com/That1M8Head/VariableWeapons/blob/main/manual.adoc)**
+**[Read the Manual!](https://github.com/AeriaVelocity/VariableWeapons/blob/main/manual.adoc)**
 
 ## Overview
 
@@ -30,7 +30,7 @@ is still there.)
 
 To download Variable Weapons, you can either:
 
-1. Download it from [releases](https://github.com/That1M8Head/VariableWeapons/releases)
+1. Download it from [releases](https://github.com/AeriaVelocity/VariableWeapons/releases)
 2. `git clone` this repository and zip it yourself, renaming `.zip` to `.pk3`
 3. `git clone` this repository and use it directly, because you can do that
 in GZDoom
