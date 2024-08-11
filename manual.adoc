@@ -66,9 +66,10 @@ you can dash around the arena or nullify attacks on the spot.
 punches.
 * **Secondary Fire:** While standing still, perform your Nullify ability,
 nullifying the damage of an incoming attack. While on the move, perform your
-Dash ability, dashing in your movement direction while neutralising incoming
-damage. Or neutralizing, depending on your country of origin. Hold down the
-button to perform a punch right after your ability use.
+Dash ability, dashing in your movement direction while ignoring any and all
+damage sources. Hold down the button to perform a punch right after your ability
+use. Punching during a Dash will reset your stamina, so you can perform the
+ability again.
 
 === Hand Cannon
 
@@ -154,10 +155,15 @@ which temporarily nullifies incoming damage. If you continuously hold the
 **Secondary Fire** button while dashing, you'll perform a punch after the dash
 is complete.
 
+If the succeeding punch successfully hits an enemy, it'll reset your stamina,
+so you can dash immediately after, possibly infinitely many times if you're able
+to chain together several dashing punches.
+
 Dashing will consume 100% of your stamina, and you have to wait for it to
 recharge fully before using it again.
 
-In Bloodlust, dashing will consume your health, but it can now be spammed.
+In Bloodlust, dashing will consume your health down to 20%, but is otherwise
+infinite.
 
 === Nullify
 
@@ -167,7 +173,8 @@ like with the Dash, holding the **Secondary Fire** button will perform a punch
 afterwards.
 
 Simply nullifying will consume only 25% of your stamina rather than the full
-100%, so it'll recharge much sooner.
+100%, so it'll recharge much sooner, however the succeeding punch will not
+reset your stamina.
 
 === Bloodlust
 
