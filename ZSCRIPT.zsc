@@ -46,7 +46,6 @@ class CombinationFist : Fist
                 string punch_sound = "*fist";
                 string miss_sound = "skeleton/swing";
 
-				A_AlertMonsters(10);
 				if (CountInv("PowerStrength")) {
                     damage_addition = 80;
                     puff_type = "SmashEm";
@@ -54,8 +53,11 @@ class CombinationFist : Fist
                     lifesteal = 0.0;
                     punch_sound = "skeleton/melee";
 				}
-                A_CustomPunch(damage_addition + invoker.charge * 2, false, 0, puff_type, range, lifesteal, 0, "ArmorBonus", punch_sound, miss_sound);
+
 				invoker.charge = 0;
+
+				A_AlertMonsters(10);
+                A_CustomPunch(damage_addition + invoker.charge * 2, false, 0, puff_type, range, lifesteal, 0, "ArmorBonus", punch_sound, miss_sound);
 			}
 			PUNG DDDDD 1 { if (CountInv("PowerStrength")) { A_WeaponReady(); } }
 			PUNG CCCC 1 A_WeaponReady();
