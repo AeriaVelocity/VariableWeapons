@@ -13,13 +13,14 @@ that make you feel awesome.
 
 === Prerequisites
 
-. GZDoom
-. A PK3 of Variable Weapons (if you cloned the Git repository, remove the .git 
+1. GZDoom which supports ZScript 4.0
+2. A PK3 of Variable Weapons (if you cloned the Git repository, remove the .git 
 folder then zip the folder and rename `.zip` to `.pk3`)
-. DOOM or DOOM II (official DOOM recommended, Freedoom will still work)
-. ZDL (optional but recommended)
+3. DOOM or DOOM II (official DOOM recommended, Freedoom will still work but will
+display incorrect graphics)
+4. ZDL (optional but recommended)
 
-=== Instructions
+=== Instructions (ZDL)
 
 Make sure you add your IWAD to ZDL. To do this, switch to the "General settings"
 tab and add your IWAD to the "IWADs" list.
@@ -28,6 +29,27 @@ Do the same thing for GZDoom -- add it to "Source ports".
 
 Switch back to "Launch config" and add `VariableWeapons.pk3` to the "External
 files" list. Then click "Launch".
+
+=== Instructions (Not ZDL)
+
+Run this command:
+
+```
+gzdoom -file path/to/VariableWeapons.pk3
+```
+
+If you're using the Flatpak version of GZDoom, first of all make sure it has
+access to your home folder:
+
+```
+flatpak override org.zdoom.GZDoom --filesystem=home
+```
+
+And then run this command:
+
+```
+flatpak run org.zdoom.GZDoom -file path/to/VariableWeapons.pk3
+```
 
 == Weapons
 
@@ -42,10 +64,11 @@ you can dash around the arena or nullify attacks on the spot.
 
 * **Primary Fire:** Perform a punch. Rapidly press the button to perform combo
 punches.
-* **Secondary Fire:** While standing still, perform your Neutralise ability,
+* **Secondary Fire:** While standing still, perform your Nullify ability,
 nullifying the damage of an incoming attack. While on the move, perform your
 Dash ability, dashing in your movement direction while neutralising incoming
-damage. Hold down the button to perform a punch right after your ability use.
+damage. Or neutralizing, depending on your country of origin. Hold down the
+button to perform a punch right after your ability use.
 
 === Hand Cannon
 
@@ -83,8 +106,8 @@ reload.
 Well, if we were gonna make the pistol overpowered, we would have to underpower
 the chaingun. You see why this is "Variable" yet?
 
-* **Primary Fire:** Fire the chaingun. The accuracy is higher than normal, but
-it fires much faster.
+* **Primary Fire:** Fire the chaingun. The accuracy is much lower than normal,
+but to compensate, it fires much faster.
 * **Secondary Fire:** N/A
 
 === Speed Rocket Launcher
@@ -105,7 +128,8 @@ now also use it as a plasma shotgun!
 
 * **Primary Fire:** Fire the plasma cannon. The plasma fires in short bursts
 and is generally much less suited for larger crowds than the old one was.
-* **Secondary Fire:** Fire a wide spread of plasma projectiles, like a plasma shotgun. This has a slight cooldown.
+* **Secondary Fire:** Fire a wide spread of plasma projectiles, like a plasma
+shotgun. This has a slight cooldown.
 
 === BFG-24336000
 
@@ -135,15 +159,15 @@ recharge fully before using it again.
 
 In Bloodlust, dashing will consume your health, but it can now be spammed.
 
-=== Neutralise
+=== Nullify
 
-If you use the Dash, but you're not on the move, you'll use Neutralise instead,
+If you use the Dash, but you're not on the move, you'll use Nullify instead,
 which uses the Dash's damage nullification, but without the actual dash. Just
 like with the Dash, holding the **Secondary Fire** button will perform a punch
 afterwards.
 
-Neutralising will consume only 25% of your stamina rather than the full 100%,
-so it'll recharge much sooner.
+Simply nullifying will consume only 25% of your stamina rather than the full
+100%, so it'll recharge much sooner.
 
 === Bloodlust
 
